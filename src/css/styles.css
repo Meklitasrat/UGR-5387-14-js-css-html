@@ -1,0 +1,704 @@
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:fit-content;
+    padding:1em;
+    color:rgb(220, 132, 132);
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/000/140/572/small/lowpoly-grey-gradient-vector.png);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px grey;
+    
+  }
+  
+  header h1{
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-size: 1.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+        
+
+  }
+  
+  .head-nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  .nav-link{
+    border-style:solid;
+    display:none;
+    padding: 0.5em;
+    text-decoration: none;
+    color:rgb(108, 112, 112);
+    font-size:1em;
+    border-radius:2px;
+    width:fit-content;
+  } 
+  
+  .nav-link:hover{
+    background-color:rgb(226, 45, 45); 
+  }
+   
+  /* menu styles */
+  
+  .hamburger-menu{
+    display: grid;
+    gap:5px;
+    width: fit-content;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  /*color of the menu bar */
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input {
+    content: "";
+    width: 50px;
+    height: 7px;
+    background-color: #000000;
+    border-radius: 9999px;
+    transform-origin: left center;
+  }
+   /*color of the menu bar */
+   
+  .hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+  }
+  
+  .sidebar nav ul{
+    display: none;
+    text-decoration: none;
+  }
+  
+  .hamburger-menu:has(input:checked) + .sidebar nav ul{
+    display:block;
+    padding:0.5em;
+    text-decoration:none;
+    width:fit-content;
+    border-radius:2px;
+    color:white;
+    font-size:1em;
+  }
+  /* Background of the menu's when hover*/
+  .hamburger-menu:has(input:checked) + .sidebar nav a:hover{
+    display:block;
+    padding:0.5em;
+    text-decoration:none;
+    background-color:rgb(232, 233, 208);
+    font-size:1em;
+  }
+  /* Background of the menu's when hover*/
+  
+
+@media screen and (max-width: 500px){
+    #desk{ content-visibility: hidden;}   
+}
+.sidebar nav ul li{
+    margin-bottom: 20px;
+}
+.sidebar nav ul li a{
+    margin-bottom: 20px;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}
+.sidebar nav ul li{
+    list-style-type: disc;
+    list-style-type: none;
+    
+}
+body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+   
+}
+/* styles For Home*/
+fieldset{
+    margin-top: 10px;
+    background-color: #eeebeb;
+    margin-top: 10px;
+    border: 2vw;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+}
+fieldset legend{
+    color: rgb(16, 15, 15);
+    border-style: none;
+    font-size: large;
+    font-weight: bolder;
+}
+.cont{
+   
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-around;
+    
+}
+.txt h4{
+    background: rgb(54, 51, 51);
+    padding: 2vw;
+    color: rgb(7, 7, 7);
+    position: relative;
+    border-radius: 10%;
+    border-style: double;
+    font-weight: bolder;
+    font-size: large;
+    font-family: serif;
+    align-content: center;
+    margin-top: 15vw;
+    box-shadow: 0px 0px 10px rgb(111, 106, 106);
+    font-size: 3vw;
+}
+.img img{
+    border-style: solid;
+    border-radius: 10%;
+    width: 30vw;
+    height: auto;
+    align-content: center;
+    margin: 5vw;
+}
+aside p {
+    padding: 2vw;
+    font-weight: bold;
+    border-radius: 5%;
+    background-color: #eeebeb;
+    color: rgb(5, 5, 5);
+    border-style: solid;
+    align-items: center;
+    margin: 3vw;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    font-size: 15px;
+    font-family:serif;
+}
+.right{
+    position: relative;
+    bottom: 0;
+    border-style:solid;
+    background-color: rgb(59, 57, 57);
+    border-radius: 10%; 
+    margin-top:65px;
+
+    
+}
+.right h3{
+    
+    color: rgb(207, 146, 55);
+    font-size: 7vw;
+}
+.right div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@keyframes bup{
+    from{transform:scale(0);}
+    to{transform:scale(10);}
+}
+.right div a{
+    text-decoration: none;
+   transition: transform 0.3s ease-in-out;
+   text-align: center;
+   font-size: 7vw;
+   color: rgb(187, 127, 38);
+   
+   
+}
+
+#copy{
+    grid-column: 1/7;
+      text-align: center;
+      color: rgb(230, 154, 41);
+      
+      
+}
+
+.right div a:hover{
+    animation: bup 0.3s ease-in-out 1 normal;
+    cursor: pointer;
+}
+
+  /*Styles For Hobby Page*/
+  .menu{
+    display: grid;
+    justify-content: space-around;
+    
+  }
+  .menu h1{
+    text-align: center;
+    
+  }
+  .books{
+    margin-bottom: 10px;
+    background-color: white;
+    
+  }
+  .books h3{
+    text-align: center;
+    
+  }
+  .sheldon{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    
+  }
+  .sheldon h3{
+    grid-column: 1/3;
+    text-align: left;
+    
+
+  }
+  .sheldon img{
+    grid-column: 1/2;
+    width: 200px;
+    margin-top: 20vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(49, 49, 47);
+    
+  }
+  .sheldon p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+
+  }
+
+.JK{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+  
+  .JK h3{
+     grid-column: 1/3;
+     text-align: left;
+  }
+  .JK img{
+    grid-column: 1/2;
+    width: 200px;
+    margin-top: 12vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+
+  }
+
+.JK p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+
+}
+.volley{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+.volley h3{
+    grid-column: 1/3;
+    text-align: left;
+}
+.volley video{
+    grid-column: 1/2;
+    width: 200px;
+    margin-top: 2vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+}
+.volley p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    font-weight: bold;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+}
+.church{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-radius: 7%;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+.church h3{
+    grid-column: 1/3;
+    text-align: left;
+}
+.church img{
+    grid-column: 1/2;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+}
+.church p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)  
+}
+.Cooking{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    border-radius: 7%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+.Cooking h3{
+    grid-column: 1/3;
+    text-align: left;
+}
+.Cooking img{
+    grid-column: 1/2;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+}
+.Cooking p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+   /* Style Extracurricular*/
+.Stem{
+    margin: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+}
+.Stem h3{
+    text-align: center;
+}
+.Stem img{
+    width: 50vw;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 5vh;
+    margin-left: 20vw;
+    
+}
+.Stem p{
+   
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+.fere{
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.fere h3{
+    text-align: center;
+    
+}
+.fere img{
+    width: 50vw;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+.fere audio{
+    content-visibility: hidden;
+}
+.fere p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+.librarian{
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.librarian h3{
+    text-align: center;
+}
+.librarian img{
+    width: 50vw;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+.librarian p{
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+.Maths{
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.Maths h3{
+    text-align: center;
+}
+.Maths img{
+    width: 50vw;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+.Maths p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+   /*Styles For Resume*/
+   .language{
+    align-items: center;
+    
+    border-style: groove;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+   }
+   .language dl{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+   .language dl dt{
+    font-weight: bolder;
+    font-size: large;
+   }
+   .language img{
+    border-style: solid;
+    border-radius: 10%;
+    width: 50vw;
+    align-items: center;
+    margin-top: 5vw;
+    margin-left: 23vw;
+   }
+   .Elementary{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.Elementary img{
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.Elementary p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.highschool{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.highschool p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.highschool img{
+    margin-left: 20px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.uni{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+}
+.uni p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.uni img{
+    margin-left: 20px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+fieldset legend + img{
+    margin-left: 10px;
+    border-color: rgb(191, 236, 236);
+    border-style: groove;
+    border-radius: 100%;
+    width: 70vw;
+}
+.Photoshop{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.Photoshop img{
+    margin-left: 20px ;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.Photoshop p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.dribble{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.dribble p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.dribble video{
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+    margin-left:5vw;
+}
+.Acting{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+}
+.Acting img{
+    margin-left: 30px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.Acting p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.adobe{
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.adobe h3{
+    text-align:center;
+    margin-top: 5px;
+}
+.adobe p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+#sun{
+ display: none;  
+ content-visibility:hidden ; 
+}
+.adobe img{
+    margin-top: 50px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+
+.billboard{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.billboard img{
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+    margin-left: 5vw;
+}
+.billboard p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+    /*Styles For Certificate*/
+    tbody tr:nth-child(even) {
+        background-color: #e7d3ba;
+      }
+      table {
+        border-collapse: collapse;
+        border: 2px inset black;
+        margin-right:auto;
+        box-shadow:-6px -5px grey;
+      }
+      
+      th, td {
+        padding-left: 8px;
+        font-weight: bold;
+      }
+      td li{
+        list-style-type:circle;
+        text-align: left;
+      }
+      td p{
+        font-weight: bold;
+        padding: 20px;
+      }
+   
+    td img{
+        width:70%
+    }
+    table, th, td{
+        border: 2px solid;
+        border-collapse: collapse;
+        
+    }
+    th,td{
+        color: rgb(66, 44, 19);
+        text-align: center;
+        box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    }
+    table img{
+        width: 20vw;
+        text-align: center;
+        border-radius: 100%;
+        margin-top: 2vw;
+    }
+    table ul li{
+        text-align: left;
+    }
+    
