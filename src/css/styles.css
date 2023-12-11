@@ -112,8 +112,7 @@ header{
 
        
     }
-    label { content-visibility: hidden;}
-    .sidebar{ content-visibility: hidden;}
+    
     
     #desk ul {
         display: grid;
@@ -1674,4 +1673,4 @@ header{
         table ul li{
             text-align: left;
         }
-        
+
