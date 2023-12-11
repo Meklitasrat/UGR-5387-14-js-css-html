@@ -1,6 +1,6 @@
 header{
     display:grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     height:fit-content;
     padding:1em;
     color:rgb(220, 132, 132);
@@ -16,7 +16,7 @@ header{
     font-size: 1.5em;
     font-size: 1.5em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(12, 12, 12);
+    color: rgb(243, 240, 240);
         
 
   }
@@ -98,202 +98,616 @@ header{
   /* Background of the menu's when hover*/
   
 
-@media screen and (max-width: 480px){
-     #desk { content-visibility: hidden;}   
+@media screen and (max-width: 767px){
+    #desk{ content-visibility: hidden;}   
+}
+.sidebar nav ul li{
+    margin-bottom: 20px;
+}
+.sidebar nav ul li a{
+    margin-bottom: 20px;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}
+.sidebar nav ul li{
+    list-style-type: disc;
+    list-style-type: none;
+    
+}
+body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+   
+}
+/* styles For Home*/
+fieldset{
+    margin-top: 10px;
+    background-color: #eeebeb;
+    margin-top: 10px;
+    border: 2vw;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+}
+fieldset legend{
+    color: rgb(16, 15, 15);
+    border-style: none;
+    font-size: large;
+    font-weight: bolder;
+}
+.cont{
+   
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-around;
+    
+}
+.txt h4{
+    background: rgb(245, 245, 191);
+    padding: 2vw;
+    color: rgb(7, 7, 7);
+    position: relative;
+    border-radius: 10%;
+    border-style: double;
+    font-weight: bolder;
+    font-size: large;
+    font-family: serif;
+    align-content: center;
+    margin-top: 15vw;
+    box-shadow: 0px 0px 10px rgb(111, 106, 106);
+    font-size: 3vw;
+}
+.img img{
+    border-style: solid;
+    border-radius: 10%;
+    width: 30vw;
+    height: auto;
+    align-content: center;
+    margin: 5vw;
+}
+aside p {
+    padding: 2vw;
+    font-weight: bold;
+    border-radius: 5%;
+    background-color: #eeebeb;
+    color: rgb(5, 5, 5);
+    border-style: solid;
+    align-items: center;
+    margin: 3vw;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    font-size: 15px;
+    font-family:serif;
+}
+.right{
+    position: relative;
+    bottom: 0;
+    border-style:solid;
+    background-color: rgb(59, 57, 57);
+    border-radius: 10%; 
+    margin-top:65px;
+
+    
+}
+.right h3{
+    
+    color: rgb(207, 146, 55);
+    font-size: 7vw;
+}
+.right div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-   /*mobile landscape*/
-@media screen and (min-width: 481px) and (max-width: 767px) and (orentation: landscape){
-    #desk { content-visibility: hidden;}   
+@keyframes bup{
+    from{transform:scale(0);}
+    to{transform:scale(10);}
 }
-    header .menu{
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+.right div a{
+    text-decoration: none;
+   transition: transform 0.3s ease-in-out;
+   text-align: center;
+   font-size: 7vw;
+   color: rgb(187, 127, 38);
+   
+   
+}
 
-       
-    }
+#copy{
+    grid-column: 1/7;
+      text-align: center;
+      color: rgb(230, 154, 41);
+      
+      
+}
+
+.right div a:hover{
+    animation: bup 0.3s ease-in-out 1 normal;
+    cursor: pointer;
+}
+
+  /*Styles For Hobby Page*/
+  .menu{
+    display: grid;
+    justify-content: space-around;
     
+  }
+  .menu h1{
+    text-align: center;
     
-    #desk ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        list-style-type: none;
-        align-content: center;
-        
-    }
-    #desk ul li a{
-        text-decoration: none;
-        list-style-type: none;
-        border-style: solid;
-        padding: 10px;
-        text-align: right;
-        border-radius: 10px;
-        
-    }
+  }
+  .books{
+    margin-bottom: 10px;
+    background-color: white;
+    
+  }
+  .books h3{
+    text-align: center;
+    
+  }
+  .sheldon{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    
+  }
+  .sheldon h3{
+    grid-column: 1/3;
+    text-align: left;
+    
 
-    div.both{
-        display: flex;
-        flex-direction: column;
-    }
-    div.both aside p{
-        margin-top: 10vh;
-    }
-    div.txt h4{
-       
-        width: 50vw;
-    }
+  }
+  .sheldon img{
+    grid-column: 1/2;
+    width: 200px;
+    margin-top: 20vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(49, 49, 47);
+    
+  }
+  .sheldon p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
 
-    div.books{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
-        padding: 20px;
-        
-    }
 
-    div.sheldon{
-        margin-right: 20px;
-        
-    } 
-    .volnch{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
-        padding: 20px;
-        
-    }
-    .volley{
-        margin-right: 10px;
-    }
+  }
 
-    .Cooking img{
-        width: 200vw;
-        text-align: center;
-    }
+.JK{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
   
-     /*Style for Extracurricular*/
+  .JK h3{
+     grid-column: 1/3;
+     text-align: left;
+  }
+  .JK img{
+    grid-column: 1/2;
+    width: 200px;
+    margin-top: 12vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
 
-    .stenfer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    
-    }
+  }
 
-    div.Stem{
-       
-        margin-right:2vw;
-        border-style: solid;
-        border-radius: 10%;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
+.JK p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+
+}
+.volley{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+.volley h3{
+    grid-column: 1/3;
+    text-align: left;
+}
+.volley video{
+    grid-column: 1/2;
+    width: 200px;
+    margin-top: 2vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+}
+.volley p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    font-weight: bold;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+}
+.church{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-radius: 7%;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+.church h3{
+    grid-column: 1/3;
+    text-align: left;
+}
+.church img{
+    grid-column: 1/2;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+}
+.church p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)  
+}
+.Cooking{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: solid;
+    border-radius: 7%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    margin-bottom: 10px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+}
+.Cooking h3{
+    grid-column: 1/3;
+    text-align: left;
+}
+.Cooking img{
+    grid-column: 1/2;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(197, 197, 47);
+}
+.Cooking p{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+   /* Style Extracurricular*/
+.Stem{
+    margin: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+}
+.Stem h3{
+    text-align: center;
+}
+.Stem img{
+    width: 50vw;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 5vh;
+    margin-left: 20vw;
     
-    }
-    div.Stem h3{
-        text-align: center;
-    }
-    div.Stem img{
-        margin-top: 10vh;
-        width: 40vw;
-        height: 60vh;
-        border-style: solid;
-        border-radius: 20%;
-        margin-top: 8vh;
-        margin-left: 1vw;
-        
-    }
-    div.Stem p{
-       
-        margin-top: 35vh;
+}
+.Stem p{
+   
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+.fere{
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.fere h3{
+    text-align: center;
+    
+}
+.fere img{
+    width: 50vw;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+.fere audio{
+    content-visibility: hidden;
+}
+.fere p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+.librarian{
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.librarian h3{
+    text-align: center;
+}
+.librarian img{
+    width: 50vw;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+.librarian p{
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+.Maths{
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.Maths h3{
+    text-align: center;
+}
+.Maths img{
+    width: 50vw;
+    border-style: solid;
+    border-radius: 20%;
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+.Maths p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44)
+}
+   /*Styles For Resume*/
+   .language{
+    align-items: center;
+    
+    border-style: groove;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+   }
+   .language dl{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+   .language dl dt{
+    font-weight: bolder;
+    font-size: large;
+   }
+   .language img{
+    border-style: solid;
+    border-radius: 10%;
+    width: 50vw;
+    align-items: center;
+    margin-top: 5vw;
+    margin-left: 23vw;
+   }
+   .Elementary{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.Elementary img{
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.Elementary p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.highschool{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.highschool p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.highschool img{
+    margin-left: 20px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.uni{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+
+}
+.uni p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.uni img{
+    margin-left: 20px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+fieldset legend + img{
+    margin-left: 10px;
+    border-color: rgb(191, 236, 236);
+    border-style: groove;
+    border-radius: 100%;
+    width: 70vw;
+}
+.Photoshop{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.Photoshop img{
+    margin-left: 20px ;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.Photoshop p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.dribble{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.dribble p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.dribble video{
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+    margin-left:5vw;
+}
+.Acting{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+}
+.Acting img{
+    margin-left: 30px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+.Acting p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.adobe{
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.adobe h3{
+    text-align:center;
+    margin-top: 5px;
+}
+.adobe p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+#sun{
+ display: none;  
+ content-visibility:hidden ; 
+}
+.adobe img{
+    margin-top: 50px;
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+}
+
+.billboard{
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    
+}
+.billboard img{
+    border-style: groove;
+    border-radius: 10%;
+    width: 70vw;
+    margin-left: 5vw;
+}
+.billboard p{
+    font-weight: bold;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+    /*Styles For Certificate*/
+    tbody tr:nth-child(even) {
+        background-color: #e7d3ba;
+      }
+      table {
+        border-collapse: collapse;
+        border: 2px inset black;
+        margin-right:auto;
+        box-shadow:-6px -5px grey;
+      }
+      
+      th, td {
+        padding-left: 8px;
         font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44)
-    }
-    .fere{
-        border-style: solid;
-        border-radius: 10%;
-        
-    }
-    .fere h3{
-        text-align: center;
-        
-    }
-    div.fere img{
-        
+      }
+      td li{
+        list-style-type:circle;
+        text-align: left;
+      }
+      td p{
+        font-weight: bold;
         padding: 20px;
-        width: 40vw;
-        border-style: solid;
-        border-radius: 20%;
-        margin-top: 5vh;
-        margin-left: 1vw;
+      }
+   
+    td img{
+        width:70%
     }
-    .fere audio{
-        content-visibility: hidden;
-    }
-    .fere p{
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44)
-    }
-
-    div.libma{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-        margin-top:2vh;
-    }
-
-    div.librarian{
-        border-style: solid;
-        border-radius: 10%;
+    table, th, td{
+        border: 2px solid;
+        border-collapse: collapse;
         
     }
-    .librarian h3{
+    th,td{
+        color: rgb(66, 44, 19);
         text-align: center;
+        box-shadow: 0px 0px 10px rgb(45, 44, 44);
     }
-    div.librarian img{
-        width: 45vw;
-        border-style: solid;
-        border-radius: 20%;
-        margin-top: 5vh;
-        margin-left: 1vw;
-    }
-    .librarian p{
+    table img{
+        width: 20vw;
         text-align: center;
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        border-radius: 10%;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44)
+        border-radius: 100%;
+        margin-top: 2vw;
     }
-    .Maths{
-        border-style: solid;
-        border-radius: 10%;
-        
+    table ul li{
+        text-align: left;
     }
-    .Maths h3{
-        text-align: center;
-    }
-    div.Maths img{
-       
-        width: 45vw;
-        border-style: solid;
-        border-radius: 20%;
-        margin-top: 10vh;
-        margin-left: 1%;
-    }
-    div.Maths p{
-        margin-top: 25vh;
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        border-radius: 10%;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44)
-    }
-     
-
-
-
-  /*Tablet Style*/
+    
+     /*mobile landscape*/
+@media screen and (min-width: 481px) and (max-width: 767px) and (orentation: landscape){
+    nav #desk ul{ content-visibility: hidden;}   
+}
+ 
+   /*Style for tablet*/
 @media screen and (min-width: 768px) and (max-width: 1023px){
     header .menu{
         display: grid;
@@ -344,7 +758,16 @@ header{
     div.sheldon{
         margin-right: 20px;
         
+        
     } 
+    div.sheldon p{
+        height: 50vh;
+        overflow: scroll;
+    }
+    div.JK p{
+        height: 50vh;
+        overflow: scroll;
+    }
     .volnch{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -357,7 +780,7 @@ header{
     }
 
     .Cooking img{
-        width: 200vw;
+        
         text-align: center;
     }
   
@@ -493,6 +916,8 @@ header{
         
         border-style: groove;
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
+        height: 60vh;
+        overflow: scroll;
        }
        .language dl{
         font-weight: bold;
@@ -679,8 +1104,6 @@ header{
       }
 
 }
-
-      /* Style for desktop*/
 @media screen and (min-width: 1024px){
     header .menu{
         display: grid;
@@ -719,8 +1142,6 @@ header{
        
         width: 50vw;
     }
-    
-    /* Style for hobby*/
 
     div.books{
         display: grid;
@@ -733,7 +1154,16 @@ header{
     div.sheldon{
         margin-right: 20px;
         
+        
     } 
+    div.sheldon p{
+        height: 50vh;
+        overflow: scroll;
+    }
+    div.JK p{
+        height: 50vh;
+        overflow: scroll;
+    }
     .volnch{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -746,7 +1176,7 @@ header{
     }
 
     .Cooking img{
-        width: 200vw;
+        
         text-align: center;
     }
   
@@ -757,6 +1187,7 @@ header{
         grid-template-columns: 1fr 1fr;
     
     }
+
     div.Stem{
        
         margin-right:2vw;
@@ -768,7 +1199,6 @@ header{
     div.Stem h3{
         text-align: center;
     }
-
     div.Stem img{
         margin-top: 10vh;
         width: 40vw;
@@ -874,707 +1304,136 @@ header{
     fieldset.educ{
 
         display: grid;
-        grid-template-columns: 1fr 1fr ;}
-        .language{
-            
-            align-items: center;
-            
-            border-style: groove;
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-           }
-           .language dl{
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-        }
-           .language dl dt{
-            font-weight: bolder;
-            font-size: large;
-           }
-           .language img{
-            border-style: solid;
-            border-radius: 10%;
-            width: 50vw;
-            align-items: center;
-            margin-top: 5vw;
-            margin-left: 23vw;
-           }
-           div.Elementary{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            
-        }
-        div.Elementary img{
-            border-style: groove;
-            border-radius: 10%;
-            width: 40vw;
-            margin-left: 2vw;
-        }
-        div.Elementary p{
-            margin-top: 6vh;
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-        }
-        .highschool{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            
-        }
-        .highschool p{
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-        }
-        div.highschool img{
-            margin-left: 20px;
-            border-style: groove;
-            border-radius: 10%;
-            width: 20vw;
-            margin-left: 15vw;
-        }
-        div.uni{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            grid-column: 1/4;
-            text-align: center;
-        
-        }
-        div.uni p{
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-        }
-        div.uni img{
-            margin-left: 20px;
-            border-style: groove;
-            border-radius: 10%;
-            width: 40vw;
-        }
-        fieldset.skill{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-    
-        fieldset #skil{
-            grid-column: 1/4;
-            margin-left: 10px;
-            border-color: rgb(191, 236, 236);
-            border-style: groove;
-            border-radius: 100%;
-            width: 70vw;
-            margin-left: 10vw;
-        }
-        .Photoshop{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            
-        }
-        div.Photoshop img{
-            margin-left: 20px ;
-            border-style: groove;
-            border-radius: 10%;
-            width: 40vw;
-            margin-top: 4vh;
-        }
-        div.Photoshop p{
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-            margin-top: 10.4vh;
-            text-align: center;
-        }
-        div.dribble{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            
-        }
-        div.dribble p{
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-            margin-top: 3vh ;
-            text-align: center;
-        }
-        div.dribble video{
-            border-style: groove;
-            border-radius: 10%;
-            width: 30vw;
-            margin-left:5vw;
-            margin-top: 2vh;
-        }
-        .Acting{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            grid-column: 1/4;
-            text-align: center;
-        }
-        .Acting img{
-            margin-left: 30px;
-            border-style: groove;
-            border-radius: 10%;
-            width: 70vw;
-        }
-        .Acting p{
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-        }
-        div.adobe{
-            display:grid;
-            grid-template-columns: 1fr 1fr ;
-            text-align: center;
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            
-        }
-        div.adobe h3{
-            grid-column: 1/4;
-            text-align:center;
-            margin-top: 5px;
-        }
-        div.adobe p{
-            grid-column:1/4 ;
-            font-weight: bold;
-            border-style: groove;
-            background-color: antiquewhite;
-        }
-        #sun{
-         display: none;  
-         content-visibility:hidden ; 
-        }
-        div.adobe img{
-           
-            border-style: groove;
-            border-radius: 10%;
-            width: 40vw;
-        }
-        .billboard{
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-            
-        }
-        div.billboard img{
-            border-style: groove;
-            border-radius: 10%;
-            width: 70vw;
-            margin-left: 10vw;
-        }
-        div.billboard p{
-            text-align: center;
-            font-weight: bold;border-style: groove;
-            background-color: antiquewhite;
-        }
-    
-        table {
-            border-collapse: collapse;
-            border: 2px inset black;
-            margin-right:auto;
-            box-shadow:-6px -5px grey;
-            text-align: center;
-          }
-    } 
-    
-    
-    .sidebar nav ul li{
-        margin-bottom: 20px;
+        grid-template-columns: 1fr 1fr ;
+
     }
-    .sidebar nav ul li a{
-        margin-bottom: 20px;
-        font-size: large;
-        text-decoration: none;
-        color: rgb(13, 13, 13);
-    }
-    .sidebar nav ul li{
-        list-style-type: disc;
-        list-style-type: none;
-        
-    }
-    body{
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
-       
-    }
-    /* styles For Home*/
-    fieldset{
-        margin-top: 10px;
-        background-color: #eeebeb;
-        margin-top: 10px;
-        border: 2vw;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-    }
-    fieldset legend{
-        color: rgb(16, 15, 15);
-        border-style: none;
-        font-size: large;
-        font-weight: bolder;
-    }
-    .cont{
-       
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-        justify-content: space-around;
-        
-    }
-    .txt h4{
-        background: rgb(54, 51, 51);
-        padding: 2vw;
-        color: rgb(7, 7, 7);
-        position: relative;
-        border-radius: 10%;
-        border-style: double;
-        font-weight: bolder;
-        font-size: large;
-        font-family: serif;
-        align-content: center;
-        margin-top: 15vw;
-        box-shadow: 0px 0px 10px rgb(111, 106, 106);
-        font-size: 3vw;
-    }
-    .img img{
-        border-style: solid;
-        border-radius: 10%;
-        width: 30vw;
-        height: auto;
-        align-content: center;
-        margin: 5vw;
-    }
-    aside p {
-        height: 40vh;
-        overflow: scroll;
-        padding: 2vw;
-        font-weight: bold;
-        border-radius: 5%;
-        background-color: #eeebeb;
-        color: rgb(5, 5, 5);
-        border-style: solid;
+    .language{
         align-items: center;
-        margin: 3vw;
-        margin-top: 10vh;
+        
+        border-style: groove;
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        font-size: 15px;
-        font-family:serif;
-    }
-    .right{
-        position: relative;
-        bottom: 0;
-        border-style:solid;
-        background-color: rgb(59, 57, 57);
-        border-radius: 10%; 
-        margin-top:65px;
-    
-        
-    }
-    .right h3{
-        
-        color: rgb(207, 146, 55);
-        font-size: 7vw;
-    }
-    .right div{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-    @keyframes bup{
-        from{transform:scale(0);}
-        to{transform:scale(10);}
-    }
-    .right div a{
-        text-decoration: none;
-       transition: transform 0.3s ease-in-out;
-       text-align: center;
-       font-size: 7vw;
-       color: rgb(187, 127, 38);
-       
-       
-    }
-    
-    #copy{
-        grid-column: 1/7;
-          text-align: center;
-          color: rgb(230, 154, 41);
-          
-          
-    }
-    
-    .right div a:hover{
-        animation: bup 0.3s ease-in-out 1 normal;
-        cursor: pointer;
-    }
-    
-      /*Styles For Hobby Page*/
-      .menu{
-        display: grid;
-        justify-content: space-around;
-        
-      }
-      .menu h1{
-        text-align: center;
-        
-      }
-      .books{
-        margin-bottom: 10px;
-        background-color: white;
-        
-      }
-      .books h3{
-        text-align: center;
-        
-      }
-      .sheldon{
-        border-radius: 7%;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        border-style: solid;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        margin-bottom: 10px;
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
-        
-      }
-      .sheldon h3{
-        grid-column: 1/3;
-        text-align: left;
-        
-    
-      }
-      .sheldon img{
-        grid-column: 1/2;
-        width: 200px;
-        margin-top: 20vh;
-        border-radius: 100%;
-        box-shadow: 0px 0px 10px rgb(49, 49, 47);
-        
-      }
-      .sheldon p{
         height: 60vh;
         overflow: scroll;
-        grid-row: 2/4;
-        grid-column: 2/4;
+       }
+       .language dl{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-    
-    
-      }
-      .JK{
-        border-radius: 7%;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        border-style: solid;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        margin-bottom: 10px;
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
     }
-      
-      .JK h3{
-         grid-column: 1/3;
-         text-align: left;
-      }
-      .JK img{
-        grid-column: 1/2;
-        width: 200px;
-        margin-top: 12vh;
-        border-radius: 100%;
-        box-shadow: 0px 0px 10px rgb(197, 197, 47);
-    
-      }
-    
-    .JK p{
-        height: 60vh;
-        overflow: scroll;
-        grid-row: 2/4;
-        grid-column: 2/4;
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-    
-    
-    }
-    .volley{
-        border-radius: 7%;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        border-style: solid;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        margin-bottom: 10px;
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
-    }
-    .volley h3{
-        grid-column: 1/3;
-        text-align: left;
-    }
-    .volley video{
-        grid-column: 1/2;
-        width: 200px;
-        margin-top: 2vh;
-        border-radius: 100%;
-        box-shadow: 0px 0px 10px rgb(197, 197, 47);
-    }
-    .volley p{
-        height: 60vh;
-        overflow: scroll;
-        grid-row: 2/4;
-        grid-column: 2/4;
-        font-weight: bold;
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-    
-    }
-    .church{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        border-radius: 7%;
-        border-style: solid;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        margin-bottom: 10px;
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
-    }
-    .church h3{
-        grid-column: 1/3;
-        text-align: left;
-    }
-    .church img{
-        grid-column: 1/2;
-        width: 150px;
-        margin-left: 10px;
-        border-radius: 100%;
-        box-shadow: 0px 0px 10px rgb(197, 197, 47);
-    }
-    .church p{
-        grid-row: 2/4;
-        grid-column: 2/4;
-        text-align: center;
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44)  
-    }
-    .Cooking{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        border-style: solid;
-        border-radius: 7%;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        margin-bottom: 10px;
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
-    }
-    .Cooking h3{
-        grid-column: 1/3;
-        text-align: left;
-    }
-    .Cooking img{
-        grid-column: 1/2;
-        width: 150px;
-        margin-left: 10px;
-        border-radius: 100%;
-        box-shadow: 0px 0px 10px rgb(197, 197, 47);
-    }
-    .Cooking p{
-        grid-row: 2/4;
-        grid-column: 2/4;
-        text-align: center;
-        font-weight: bold;
-        border-style: groove;
-        background-color: antiquewhite;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44)
-    }
-       /* Style Extracurricular*/
-    .Stem{
-        margin: 5px;
+       .language dl dt{
+        font-weight: bolder;
+        font-size: large;
+       }
+       .language img{
         border-style: solid;
         border-radius: 10%;
-        box-shadow: 0px 0px 10px rgb(45, 44, 44);}
-.Stem h3{
-    text-align: center;
-}
-.Stem img{
-    width: 50vw;
-    height: 30vh;
-    border-style: solid;
-    border-radius: 20%;
-    margin-top: 5vh;
-    margin-left: 20vw;
-    
-}
-.Stem p{
-   
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-    box-shadow: 0px 0px 10px rgb(45, 44, 44)
-}
-.fere{
-    border-style: solid;
-    border-radius: 10%;
-    
-}
-.fere h3{
-    text-align: center;
-    
-}
-.fere img{
-    width: 50vw;
-    border-style: solid;
-    border-radius: 20%;
-    margin-top: 5vh;
-    margin-left: 20vw;
-}
-.fere audio{
-    content-visibility: hidden;
-}
-.fere p{
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-    box-shadow: 0px 0px 10px rgb(45, 44, 44)
-}
-.librarian{
-    border-style: solid;
-    border-radius: 10%;
-    
-}
-.librarian h3{
-    text-align: center;
-}
-.librarian img{
-    width: 50vw;
-    border-style: solid;
-    border-radius: 20%;
-    margin-top: 5vh;
-    margin-left: 20vw;
-}
-.librarian p{
-    text-align: center;
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-    border-radius: 10%;
-    box-shadow: 0px 0px 10px rgb(45, 44, 44)
-}
-.Maths{
-    border-style: solid;
-    border-radius: 10%;
-    
-}
-.Maths h3{
-    text-align: center;
-}
-.Maths img{
-    width: 50vw;
-    border-style: solid;
-    border-radius: 20%;
-    margin-top: 2vh;
-    margin-left: 20vw;
-}
-.Maths p{
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-    border-radius: 10%;
-    box-shadow: 0px 0px 10px rgb(45, 44, 44)
-}
-   /*Styles For Resume*/
-   .language{
-    height: 80vh;
-    overflow: scroll;
-    align-items: center;
-    
-    border-style: groove;
-    box-shadow: 0px 0px 10px rgb(45, 44, 44);
-   }
-   .language dl{
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-}
-   .language dl dt{
-    font-weight: bolder;
-    font-size: large;
-   }
-   .language img{
-    border-style: solid;
-    border-radius: 10%;
-    width: 50vw;
-    align-items: center;
-    margin-top: 5vw;
-    margin-left: 23vw;
-   }
-   .Elementary{
-    box-shadow: 0px 0px 10px rgb(45, 44, 44);
-    
-}
-.Elementary img{
-    border-style: groove;
-    border-radius: 10%;
-    width: 70vw;
-}
-.Elementary p{
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-}
-.highschool{
-    box-shadow: 0px 0px 10px rgb(45, 44, 44);
-    
-}
-.highschool p{
-    font-weight: bold;
-    border-style: groove;
-    background-color: antiquewhite;
-}
-.highschool img{
-    margin-left: 20px;
-    border-style: groove;
-    border-radius: 10%;
-    width: 70vw;
-}
-.uni{
-    box-shadow: 0px 0px 10px rgb(45, 44, 44);}
-    .uni p{
+        width: 50vw;
+        align-items: center;
+        margin-top: 5vw;
+        margin-left: 23vw;
+       }
+       div.Elementary{
+        box-shadow: 0px 0px 10px rgb(45, 44, 44);
+        
+    }
+    div.Elementary img{
+        border-style: groove;
+        border-radius: 10%;
+        width: 40vw;
+        margin-left: 2vw;
+    }
+    div.Elementary p{
+        margin-top: 6vh;
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    .uni img{
+    .highschool{
+        box-shadow: 0px 0px 10px rgb(45, 44, 44);
+        
+    }
+    .highschool p{
+        font-weight: bold;
+        border-style: groove;
+        background-color: antiquewhite;
+    }
+    div.highschool img{
         margin-left: 20px;
         border-style: groove;
         border-radius: 10%;
-        width: 70vw;
+        width: 20vw;
+        margin-left: 15vw;
     }
-    fieldset legend + img{
+    div.uni{
+        box-shadow: 0px 0px 10px rgb(45, 44, 44);
+        grid-column: 1/4;
+        text-align: center;
+    
+    }
+    div.uni p{
+        font-weight: bold;
+        border-style: groove;
+        background-color: antiquewhite;
+    }
+    div.uni img{
+        margin-left: 20px;
+        border-style: groove;
+        border-radius: 10%;
+        width: 40vw;
+    }
+    fieldset.skill{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    fieldset #skil{
+        grid-column: 1/4;
         margin-left: 10px;
         border-color: rgb(191, 236, 236);
         border-style: groove;
         border-radius: 100%;
         width: 70vw;
+        margin-left: 10vw;
     }
     .Photoshop{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    .Photoshop img{
+    div.Photoshop img{
         margin-left: 20px ;
         border-style: groove;
         border-radius: 10%;
-        width: 70vw;
+        width: 40vw;
+        margin-top: 4vh;
     }
-    .Photoshop p{
+    div.Photoshop p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
+        margin-top: 10.4vh;
+        text-align: center;
     }
-    .dribble{
+    div.dribble{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    .dribble p{
+    div.dribble p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
+        margin-top: 3vh ;
+        text-align: center;
     }
-    .dribble video{
+    div.dribble video{
         border-style: groove;
         border-radius: 10%;
-        width: 70vw;
+        width: 30vw;
         margin-left:5vw;
+        margin-top: 2vh;
     }
     .Acting{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
+        grid-column: 1/4;
+        text-align: center;
     }
     .Acting img{
         margin-left: 30px;
@@ -1587,16 +1446,20 @@ header{
         border-style: groove;
         background-color: antiquewhite;
     }
-    .adobe{
+    div.adobe{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
         text-align: center;
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    .adobe h3{
+    div.adobe h3{
+        grid-column: 1/4;
         text-align:center;
         margin-top: 5px;
     }
-    .adobe p{
+    div.adobe p{
+        grid-column:1/4 ;
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
@@ -1605,72 +1468,35 @@ header{
      display: none;  
      content-visibility:hidden ; 
     }
-    .adobe img{
-        margin-top: 50px;
+    div.adobe img{
+       
         border-style: groove;
         border-radius: 10%;
-        width: 70vw;
+        width: 40vw;
     }
-    
     .billboard{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    .billboard img{
+    div.billboard img{
         border-style: groove;
         border-radius: 10%;
         width: 70vw;
-        margin-left: 5vw;
+        margin-left: 10vw;
     }
-    .billboard p{
+    div.billboard p{
+        text-align: center;
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-        /*Styles For Certificate*/
-        tbody tr:nth-child(even) {
-            background-color: #e7d3ba;
-          }
-          table {
-            border-collapse: collapse;
-            border: 2px inset black;
-            margin-right:auto;
-            box-shadow:-6px -5px grey;
-          }
-          
-          th, td {
-            padding-left: 8px;
-            font-weight: bold;
-          }
-          td li{
-            list-style-type:circle;
-            text-align: left;
-          }
-          td p{
-            font-weight: bold;
-            padding: 20px;
-          }
-       
-        td img{
-            width:70%
-        }
-        table, th, td{
-            border: 2px solid;
-            border-collapse: collapse;
-            
-        }
-        th,td{
-            color: rgb(66, 44, 19);
-            text-align: center;
-            box-shadow: 0px 0px 10px rgb(45, 44, 44);
-        }
-        table img{
-            width: 20vw;
-            text-align: center;
-            border-radius: 100%;
-            margin-top: 2vw;
-        }
-        table ul li{
-            text-align: left;
-        }
 
+    table {
+        border-collapse: collapse;
+        border: 2px inset black;
+        margin-right:auto;
+        box-shadow:-6px -5px grey;
+        text-align: center;
+      }
+
+}
