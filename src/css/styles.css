@@ -116,11 +116,12 @@ header{
     
 }
 body{
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3main__books__JKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
    
 }
 /* styles For Home*/
 fieldset{
+    
     margin-top: 10px;
     background-color: #eeebeb;
     margin-top: 10px;
@@ -133,15 +134,15 @@ fieldset legend{
     font-size: large;
     font-weight: bolder;
 }
-.cont{
+.both__cont{
    
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 4fr 1fr;
     justify-content: space-around;
     
 }
 .txt h4{
-    background: rgb(245, 245, 191);
+    background: rgb(243, 190, 157);
     padding: 2vw;
     color: rgb(7, 7, 7);
     position: relative;
@@ -155,7 +156,7 @@ fieldset legend{
     box-shadow: 0px 0px 10px rgb(111, 106, 106);
     font-size: 3vw;
 }
-.img img{
+.both__cont__img{
     border-style: solid;
     border-radius: 10%;
     width: 30vw;
@@ -234,32 +235,32 @@ aside p {
     text-align: center;
     
   }
-  .books{
+  .main__books{
     margin-bottom: 10px;
     background-color: white;
     
   }
-  .books h3{
+  .main__books h3{
     text-align: center;
     
   }
-  .sheldon{
+  .main__books__sheldon{
     border-radius: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border-style: solid;
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     margin-bottom: 10px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3main__books__JKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
     
   }
-  .sheldon h3{
+  .main__books__sheldon h3{
     grid-column: 1/3;
     text-align: left;
     
 
   }
-  .sheldon img{
+  .main__books__sheldon img{
     grid-column: 1/2;
     width: 200px;
     margin-top: 20vh;
@@ -267,7 +268,7 @@ aside p {
     box-shadow: 0px 0px 10px rgb(49, 49, 47);
     
   }
-  .sheldon p{
+  .main__books__sheldon p{
     grid-row: 2/4;
     grid-column: 2/4;
     font-weight: bold;
@@ -278,21 +279,21 @@ aside p {
 
   }
 
-.JK{
+.main__books__JK{
     border-radius: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border-style: solid;
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     margin-bottom: 10px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3main__books__JKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
 }
   
-  .JK h3{
+  .main__books__JK h3{
      grid-column: 1/3;
      text-align: left;
   }
-  .JK img{
+  .main__books__JK img{
     grid-column: 1/2;
     width: 200px;
     margin-top: 12vh;
@@ -301,7 +302,7 @@ aside p {
 
   }
 
-.JK p{
+.main__books__JK p{
     grid-row: 2/4;
     grid-column: 2/4;
     font-weight: bold;
@@ -311,27 +312,30 @@ aside p {
 
 
 }
-.volley{
+.main__volnch{
+    text-align: center;
+}
+.main__volnch__volley{
     border-radius: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border-style: solid;
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     margin-bottom: 10px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3main__books__JKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
 }
-.volley h3{
+.main__volnch__volley h3{
     grid-column: 1/3;
     text-align: left;
 }
-.volley video{
+.main__volnch__volley video{
     grid-column: 1/2;
     width: 200px;
     margin-top: 2vh;
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgb(197, 197, 47);
 }
-.volley p{
+.main__volnch__volley p{
     grid-row: 2/4;
     grid-column: 2/4;
     font-weight: bold;
@@ -341,27 +345,27 @@ aside p {
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
 
 }
-.church{
+.main__church{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border-radius: 7%;
     border-style: solid;
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     margin-bottom: 10px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3main__books__JKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
 }
-.church h3{
+.main__church h3{
     grid-column: 1/3;
     text-align: left;
 }
-.church img{
+.main__church img{
     grid-column: 1/2;
     width: 150px;
     margin-left: 10px;
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgb(197, 197, 47);
 }
-.church p{
+.main__church p{
     grid-row: 2/4;
     grid-column: 2/4;
     text-align: center;
@@ -370,27 +374,27 @@ aside p {
     background-color: antiquewhite;
     box-shadow: 0px 0px 10px rgb(45, 44, 44)  
 }
-.Cooking{
+.main__Cooking{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border-style: solid;
     border-radius: 7%;
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     margin-bottom: 10px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3jKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3etZwZsQbiQVeFyBwZ9315J83584d3main__books__JKbbrBm5fpxcMLKFP5-hRlW7cZr2tsui4Swuk&usqp=CAU)
 }
-.Cooking h3{
+.main__Cooking h3{
     grid-column: 1/3;
     text-align: left;
 }
-.Cooking img{
+.main__Cooking img{
     grid-column: 1/2;
     width: 150px;
     margin-left: 10px;
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgb(197, 197, 47);
 }
-.Cooking p{
+.main__Cooking p{
     grid-row: 2/4;
     grid-column: 2/4;
     text-align: center;
@@ -400,17 +404,17 @@ aside p {
     box-shadow: 0px 0px 10px rgb(45, 44, 44)
 }
    /* Style Extracurricular*/
-.Stem{
+.all__stenfer__Stem{
     margin: 5px;
     border-style: solid;
     border-radius: 10%;
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
 
 }
-.Stem h3{
+.all__stenfer__Stem h3{
     text-align: center;
 }
-.Stem img{
+.all__stenfer__Stem img{
     width: 50vw;
     height: 30vh;
     border-style: solid;
@@ -419,54 +423,54 @@ aside p {
     margin-left: 20vw;
     
 }
-.Stem p{
+.all__stenfer__Stem p{
    
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
     box-shadow: 0px 0px 10px rgb(45, 44, 44)
 }
-.fere{
+.all__fere{
     border-style: solid;
     border-radius: 10%;
     
 }
-.fere h3{
+.all__fere h3{
     text-align: center;
     
 }
-.fere img{
+.all__fere img{
     width: 50vw;
     border-style: solid;
     border-radius: 20%;
     margin-top: 5vh;
     margin-left: 20vw;
 }
-.fere audio{
+.all__fere audio{
     content-visibility: hidden;
 }
-.fere p{
+.all__fere p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
     box-shadow: 0px 0px 10px rgb(45, 44, 44)
 }
-.librarian{
+.all__libma__librarian{
     border-style: solid;
     border-radius: 10%;
     
 }
-.librarian h3{
+.all__libma__librarian h3{
     text-align: center;
 }
-.librarian img{
+.all__libma__librarian img{
     width: 50vw;
     border-style: solid;
     border-radius: 20%;
     margin-top: 5vh;
     margin-left: 20vw;
 }
-.librarian p{
+.all__libma__librarian p{
     text-align: center;
     font-weight: bold;
     border-style: groove;
@@ -474,22 +478,22 @@ aside p {
     border-radius: 10%;
     box-shadow: 0px 0px 10px rgb(45, 44, 44)
 }
-.Maths{
+.all__Maths{
     border-style: solid;
     border-radius: 10%;
     
 }
-.Maths h3{
+.all__Maths h3{
     text-align: center;
 }
-.Maths img{
+.all__Maths img{
     width: 50vw;
     border-style: solid;
     border-radius: 20%;
     margin-top: 2vh;
     margin-left: 20vw;
 }
-.Maths p{
+.all__Maths p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
@@ -520,45 +524,45 @@ aside p {
     margin-top: 5vw;
     margin-left: 23vw;
    }
-   .Elementary{
+   .educ__Elementary{
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     
 }
-.Elementary img{
+.educ__Elementary img{
     border-style: groove;
     border-radius: 10%;
     width: 70vw;
 }
-.Elementary p{
+.educ__Elementary p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
 }
-.highschool{
+.educ__highschool{
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     
 }
-.highschool p{
+.educ__highschool p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
 }
-.highschool img{
+.educ__highschool img{
     margin-left: 20px;
     border-style: groove;
     border-radius: 10%;
     width: 70vw;
 }
-.uni{
+.educ__uni{
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
 
 }
-.uni p{
+.educ__uni p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
 }
-.uni img{
+.educ__uni img{
     margin-left: 20px;
     border-style: groove;
     border-radius: 10%;
@@ -571,46 +575,46 @@ fieldset legend + img{
     border-radius: 100%;
     width: 70vw;
 }
-.Photoshop{
+.skill__Photoshop{
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     
 }
-.Photoshop img{
+.skill__Photoshop img{
     margin-left: 20px ;
     border-style: groove;
     border-radius: 10%;
     width: 70vw;
 }
-.Photoshop p{
+.skill__Photoshop p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
 }
-.dribble{
+.skill__dribble{
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
     
 }
-.dribble p{
+.skill__dribble p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
 }
-.dribble video{
+.skill__dribble video{
     border-style: groove;
     border-radius: 10%;
     width: 70vw;
     margin-left:5vw;
 }
-.Acting{
+.skill__Acting{
     box-shadow: 0px 0px 10px rgb(45, 44, 44);
 }
-.Acting img{
+.skill__Acting img{
     margin-left: 30px;
     border-style: groove;
     border-radius: 10%;
     width: 70vw;
 }
-.Acting p{
+.skill__Acting p{
     font-weight: bold;
     border-style: groove;
     background-color: antiquewhite;
@@ -704,7 +708,12 @@ fieldset legend + img{
     
      /*mobile landscape*/
 @media screen and (min-width: 481px) and (max-width: 767px) and (orentation: landscape){
+
     nav #desk ul{ content-visibility: hidden;}   
+
+    
+
+    
 }
  
    /*Style for tablet*/
@@ -715,6 +724,7 @@ fieldset legend + img{
 
        
     }
+
     label { content-visibility: hidden;}
     .sidebar{ content-visibility: hidden;}
     
@@ -739,15 +749,16 @@ fieldset legend + img{
         display: flex;
         flex-direction: column;
     }
-    div.both aside p{
+    aside p{
         margin-top: 10vh;
     }
     div.txt h4{
        
         width: 50vw;
     }
+    /*Style for homes*/
 
-    div.books{
+    div.main__books{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-around;
@@ -755,44 +766,44 @@ fieldset legend + img{
         
     }
 
-    div.sheldon{
+    div.main__books__sheldon{
         margin-right: 20px;
         
         
     } 
-    div.sheldon p{
+    div.main__books__sheldon p{
         height: 50vh;
         overflow: scroll;
     }
-    div.JK p{
+    div.main__books__JK p{
         height: 50vh;
         overflow: scroll;
     }
-    .volnch{
+    .main__volnch{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-around;
         padding: 20px;
         
     }
-    .volley{
+    .main__volnch__volley{
         margin-right: 10px;
     }
 
-    .Cooking img{
+    .main__Cooking img{
         
         text-align: center;
     }
   
      /*Style for Extracurricular*/
 
-    .stenfer{
+    .all__stenfer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     
     }
 
-    div.Stem{
+    div.all__stenfer__Stem{
        
         margin-right:2vw;
         border-style: solid;
@@ -800,10 +811,10 @@ fieldset legend + img{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
     
     }
-    div.Stem h3{
+    div.all__stenfer__Stem h3{
         text-align: center;
     }
-    div.Stem img{
+    div.all__stenfer__Stem img{
         margin-top: 10vh;
         width: 40vw;
         height: 60vh;
@@ -813,7 +824,7 @@ fieldset legend + img{
         margin-left: 1vw;
         
     }
-    div.Stem p{
+    div.all__stenfer__Stem p{
        
         margin-top: 35vh;
         font-weight: bold;
@@ -821,16 +832,16 @@ fieldset legend + img{
         background-color: antiquewhite;
         box-shadow: 0px 0px 10px rgb(45, 44, 44)
     }
-    .fere{
+    .all__fere{
         border-style: solid;
         border-radius: 10%;
         
     }
-    .fere h3{
+    .all__fere h3{
         text-align: center;
         
     }
-    div.fere img{
+    div.all__fere img{
         
         padding: 20px;
         width: 40vw;
@@ -839,38 +850,38 @@ fieldset legend + img{
         margin-top: 5vh;
         margin-left: 1vw;
     }
-    .fere audio{
+    .all__fere audio{
         content-visibility: hidden;
     }
-    .fere p{
+    .all__fere p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
         box-shadow: 0px 0px 10px rgb(45, 44, 44)
     }
 
-    div.libma{
+    div.all__libma{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
         margin-top:2vh;
     }
 
-    div.librarian{
+    div.all__libma__librarian{
         border-style: solid;
         border-radius: 10%;
         
     }
-    .librarian h3{
+    .all__libma__librarian h3{
         text-align: center;
     }
-    div.librarian img{
+    div.all__libma__librarian img{
         width: 45vw;
         border-style: solid;
         border-radius: 20%;
         margin-top: 5vh;
         margin-left: 1vw;
     }
-    .librarian p{
+    .all__libma__librarian p{
         text-align: center;
         font-weight: bold;
         border-style: groove;
@@ -878,15 +889,15 @@ fieldset legend + img{
         border-radius: 10%;
         box-shadow: 0px 0px 10px rgb(45, 44, 44)
     }
-    .Maths{
+    .all__Maths{
         border-style: solid;
         border-radius: 10%;
         
     }
-    .Maths h3{
+    .all__Maths h3{
         text-align: center;
     }
-    div.Maths img{
+    div.all__Maths img{
        
         width: 45vw;
         border-style: solid;
@@ -894,7 +905,7 @@ fieldset legend + img{
         margin-top: 10vh;
         margin-left: 1%;
     }
-    div.Maths p{
+    div.all__Maths p{
         margin-top: 25vh;
         font-weight: bold;
         border-style: groove;
@@ -936,50 +947,50 @@ fieldset legend + img{
         margin-top: 5vw;
         margin-left: 23vw;
        }
-       div.Elementary{
+       div.educ__Elementary{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    div.Elementary img{
+    div.educ__Elementary img{
         border-style: groove;
         border-radius: 10%;
         width: 40vw;
         margin-left: 2vw;
     }
-    div.Elementary p{
+    div.educ__Elementary p{
         margin-top: 6vh;
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    .highschool{
+    .educ__highschool{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    .highschool p{
+    .educ__highschool p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    div.highschool img{
+    div.educ__highschool img{
         margin-left: 20px;
         border-style: groove;
         border-radius: 10%;
         width: 20vw;
         margin-left: 15vw;
     }
-    div.uni{
+    div.educ__uni{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         grid-column: 1/4;
         text-align: center;
     
     }
-    div.uni p{
+    div.educ__uni p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    div.uni img{
+    div.educ__uni img{
         margin-left: 20px;
         border-style: groove;
         border-radius: 10%;
@@ -998,54 +1009,54 @@ fieldset legend + img{
         width: 70vw;
         margin-left: 10vw;
     }
-    .Photoshop{
+    .skill__Photoshop{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    div.Photoshop img{
+    div.skill__Photoshop img{
         margin-left: 20px ;
         border-style: groove;
         border-radius: 10%;
         width: 40vw;
         margin-top: 4vh;
     }
-    div.Photoshop p{
+    div.skill__Photoshop p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
         margin-top: 10.4vh;
         text-align: center;
     }
-    div.dribble{
+    div.skill__dribble{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    div.dribble p{
+    div.skill__dribble p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
         margin-top: 3vh ;
         text-align: center;
     }
-    div.dribble video{
+    div.skill__dribble video{
         border-style: groove;
         border-radius: 10%;
         width: 30vw;
         margin-left:5vw;
         margin-top: 2vh;
     }
-    .Acting{
+    .skill__Acting{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         grid-column: 1/4;
         text-align: center;
     }
-    .Acting img{
+    .skill__Acting img{
         margin-left: 30px;
         border-style: groove;
         border-radius: 10%;
         width: 70vw;
     }
-    .Acting p{
+    .skill__Acting p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
@@ -1103,8 +1114,38 @@ fieldset legend + img{
         text-align: center;
       }
 
+      #copy{
+
+        font-size: 30px;
+    }
+    .right__footer a{
+        font-size: 20px;
+    }
+
+    .right h3{
+
+        font-size: 30px;
+
+    }
 }
+   /* Style For Desktop*/
 @media screen and (min-width: 1024px){
+    .home_feild{
+        height: auto;
+    }
+
+    #copy{
+
+        font-size: 30px;
+    }
+    .right__footer a{
+        font-size: 20px;
+    }
+
+    .right h3{
+        font-size: 30px;
+
+    }
     header .menu{
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -1130,20 +1171,25 @@ fieldset legend + img{
         border-radius: 10px;
         
     }
-
+  
     div.both{
+        
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     div.both aside p{
         margin-top: 10vh;
     }
     div.txt h4{
-       
-        width: 50vw;
+        width: 500px;
+        
+        overflow: scroll;
+        margin-right: 20px;
+        
     }
 
-    div.books{
+    div.main__books{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-around;
@@ -1151,44 +1197,44 @@ fieldset legend + img{
         
     }
 
-    div.sheldon{
+    div.main__books__sheldon{
         margin-right: 20px;
         
         
     } 
-    div.sheldon p{
+    div.main__books__sheldon p{
         height: 50vh;
         overflow: scroll;
     }
-    div.JK p{
+    div.main__books__JK p{
         height: 50vh;
         overflow: scroll;
     }
-    .volnch{
+    .main__volnch{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-around;
         padding: 20px;
         
     }
-    .volley{
+    .main__volnch__volley{
         margin-right: 10px;
     }
 
-    .Cooking img{
+    .main__Cooking img{
         
         text-align: center;
     }
   
      /*Style for Extracurricular*/
 
-    .stenfer{
+    .all__stenfer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     
     }
 
-    div.Stem{
+    div.all__stenfer__Stem{
        
         margin-right:2vw;
         border-style: solid;
@@ -1196,10 +1242,10 @@ fieldset legend + img{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
     
     }
-    div.Stem h3{
+    div.all__stenfer__Stem h3{
         text-align: center;
     }
-    div.Stem img{
+    div.all__stenfer__Stem img{
         margin-top: 10vh;
         width: 40vw;
         height: 60vh;
@@ -1209,7 +1255,7 @@ fieldset legend + img{
         margin-left: 1vw;
         
     }
-    div.Stem p{
+    div.all__stenfer__Stem p{
        
         margin-top: 35vh;
         font-weight: bold;
@@ -1217,16 +1263,16 @@ fieldset legend + img{
         background-color: antiquewhite;
         box-shadow: 0px 0px 10px rgb(45, 44, 44)
     }
-    .fere{
+    .all__fere{
         border-style: solid;
         border-radius: 10%;
         
     }
-    .fere h3{
+    .all__fere h3{
         text-align: center;
         
     }
-    div.fere img{
+    div.all__fere img{
         
         padding: 20px;
         width: 40vw;
@@ -1235,10 +1281,10 @@ fieldset legend + img{
         margin-top: 5vh;
         margin-left: 1vw;
     }
-    .fere audio{
+    .all__fere audio{
         content-visibility: hidden;
     }
-    .fere p{
+    .all__fere p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
@@ -1251,22 +1297,22 @@ fieldset legend + img{
         margin-top:2vh;
     }
 
-    div.librarian{
+    div.all__libma__librarian{
         border-style: solid;
         border-radius: 10%;
         
     }
-    .librarian h3{
+    .all__libma__librarian h3{
         text-align: center;
     }
-    div.librarian img{
+    div.all__libma__librarian img{
         width: 45vw;
         border-style: solid;
         border-radius: 20%;
         margin-top: 5vh;
         margin-left: 1vw;
     }
-    .librarian p{
+    .all__libma__librarian p{
         text-align: center;
         font-weight: bold;
         border-style: groove;
@@ -1274,15 +1320,15 @@ fieldset legend + img{
         border-radius: 10%;
         box-shadow: 0px 0px 10px rgb(45, 44, 44)
     }
-    .Maths{
+    .all__Maths{
         border-style: solid;
         border-radius: 10%;
         
     }
-    .Maths h3{
+    .all__Maths h3{
         text-align: center;
     }
-    div.Maths img{
+    div.all__Maths img{
        
         width: 45vw;
         border-style: solid;
@@ -1290,7 +1336,7 @@ fieldset legend + img{
         margin-top: 10vh;
         margin-left: 1%;
     }
-    div.Maths p{
+    div.all__Maths p{
         margin-top: 25vh;
         font-weight: bold;
         border-style: groove;
@@ -1332,50 +1378,50 @@ fieldset legend + img{
         margin-top: 5vw;
         margin-left: 23vw;
        }
-       div.Elementary{
+       div.educ__Elementary{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    div.Elementary img{
+    div.educ__Elementary img{
         border-style: groove;
         border-radius: 10%;
         width: 40vw;
         margin-left: 2vw;
     }
-    div.Elementary p{
+    div.educ__Elementary p{
         margin-top: 6vh;
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    .highschool{
+    .educ__highschool{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    .highschool p{
+    .educ__highschool p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    div.highschool img{
+    div.educ__highschool img{
         margin-left: 20px;
         border-style: groove;
         border-radius: 10%;
         width: 20vw;
         margin-left: 15vw;
     }
-    div.uni{
+    div.educ__uni{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         grid-column: 1/4;
         text-align: center;
     
     }
-    div.uni p{
+    div.educ__uni p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
     }
-    div.uni img{
+    div.educ__uni img{
         margin-left: 20px;
         border-style: groove;
         border-radius: 10%;
@@ -1394,54 +1440,54 @@ fieldset legend + img{
         width: 70vw;
         margin-left: 10vw;
     }
-    .Photoshop{
+    .skill__Photoshop{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    div.Photoshop img{
+    div.skill__Photoshop img{
         margin-left: 20px ;
         border-style: groove;
         border-radius: 10%;
         width: 40vw;
         margin-top: 4vh;
     }
-    div.Photoshop p{
+    div.skill__Photoshop p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
         margin-top: 10.4vh;
         text-align: center;
     }
-    div.dribble{
+    div.skill__dribble{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         
     }
-    div.dribble p{
+    div.skill__dribble p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
         margin-top: 3vh ;
         text-align: center;
     }
-    div.dribble video{
+    div.skill__dribble video{
         border-style: groove;
         border-radius: 10%;
         width: 30vw;
         margin-left:5vw;
         margin-top: 2vh;
     }
-    .Acting{
+    .skill__Acting{
         box-shadow: 0px 0px 10px rgb(45, 44, 44);
         grid-column: 1/4;
         text-align: center;
     }
-    .Acting img{
+    .skill__Acting img{
         margin-left: 30px;
         border-style: groove;
         border-radius: 10%;
         width: 70vw;
     }
-    .Acting p{
+    .skill__Acting p{
         font-weight: bold;
         border-style: groove;
         background-color: antiquewhite;
@@ -1499,4 +1545,247 @@ fieldset legend + img{
         text-align: center;
       }
 
+      .slider {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    } 
+    
+    .slider{
+        background-color: rgb(9, 9, 9);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .slide img{
+        max-width: 100%;
+        display: block;
+        animation: zoom 1s ease;
+        border-radius: 10%;
+        width: 400vw;
+        height: 220%;
+        align-content: center; 
+        margin-right: 100px;
+    }
+    
+    .slides{
+      display: flex;
+      width: 100;
+      
+    }
+    
+    .home_feild{
+        display: flex;
+    
+    }
+    
+    .slides input{
+        display: none;
+    }
+    .slide{
+        transition: 2s;
+        width: 400px;
+    }
+    .navigation-manual{
+        position: absolute;
+        margin-top: -40px;
+        width: 8px;
+        display: flex; 
+        transition: 1s;
+        content-visibility: hidden;
+    }
+    .manual-btn{
+        
+        justify-items: center;
+        padding: 5px;
+        border-radius: 200%;
+        border: 2px solid pink;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .manual-btn:not(:last-child){
+        
+        margin-right: 40px;
+        
+       
+    }
+    .manual-btn:hover{
+        content-visibility: hidden;
+        background-color: palevioletred;
+    }
+    
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    
+    }
+    #radio2:checked ~ .first{
+        margin-left: -40%;
+    
+    }
+    #radio3:checked ~ .first{
+        margin-left: -60%;
+    
+    }
+    #radio4:checked ~ .first{
+        margin-left: -80%;
+        
+    }
+    
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 800px;
+        justify-content: center;
+    }
+    .navigation-auto div{
+        border: 2px solid aqua;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    .navigation-auto div.manual-btn:not(:last-child){
+        
+        margin-left: 40px;
+    }
+    
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+        background-color: rgb(226, 225, 124);
+    
+    }
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+        background-color: rgb(226, 225, 124);
+    }
+    #radio2:checked ~ .navigation-auto .auto-btn2{
+        background-color: rgb(226, 225, 124);
+    }
+    #radio3:checked ~ .navigation-auto .auto-btn3{
+        background-color: rgb(226, 225, 124);
+    }
+    #radio4:checked ~ .navigation-auto .auto-btn4{
+        background-color: rgb(225, 0, 0);
+    }
+    
+
+
+    
+
+}
+.slider {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+} 
+
+.slider{
+    background-color: rgb(9, 9, 9);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slide img{
+    max-width: 100%;
+    display: block;
+    animation: zoom 1s ease;
+    border-radius: 10%;
+    width: 270%;
+    height: 220%;
+    align-content: center; 
+    margin-right: 100px;
+}
+
+.slides{
+  display: flex;
+  width: 100;
+  
+}
+
+.home_feild{
+    display: flex;
+
+}
+
+.slides input{
+    display: none;
+}
+.slide{
+    transition: 2s;
+    width: 400px;
+}
+.navigation-manual{
+    position: absolute;
+    margin-top: -40px;
+    width: 8px;
+    display: flex; 
+    transition: 1s;
+    content-visibility: hidden;
+}
+.manual-btn{
+    
+    justify-items: center;
+    padding: 5px;
+    border-radius: 200%;
+    border: 2px solid pink;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    
+    margin-right: 40px;
+    
+   
+}
+.manual-btn:hover{
+    content-visibility: hidden;
+    background-color: palevioletred;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+    margin-left: -40%;
+
+}
+#radio3:checked ~ .first{
+    margin-left: -60%;
+
+}
+#radio4:checked ~ .first{
+    margin-left: -80%;
+    
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+.navigation-auto div{
+    border: 2px solid aqua;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div.manual-btn:not(:last-child){
+    
+    margin-left: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: rgb(226, 225, 124);
+
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: rgb(226, 225, 124);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: rgb(226, 225, 124);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: rgb(226, 225, 124);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: rgb(225, 0, 0);
 }

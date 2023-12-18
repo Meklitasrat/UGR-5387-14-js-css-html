@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--<link rel="stylesheet" href="styles.css">-->
     <link  rel="stylesheet" href="css/styles.css">
+    <script src="Java_Script/js.js"></script>
 </head>
 
 
@@ -47,13 +47,53 @@
     <hr>
     
             <div class="both">
-              <fieldset>
+              <fieldset class="home_feild">
                 <legend> MEKLIT ASRAT </legend>
-                <div class="cont">
-                    <div class="img">
+                <div class="both__cont">
+                    <div class="slider">
+                    
                        
-                            <img src="Image/Mee.jpg" alt="My Photo" >            
+                            
+                                <div class="slides">
+                                    <input type="radio" name="radio-btn" id="radio1">
+                                    <input type="radio" name="radio-btn" id="radio2">
+                                    <input type="radio" name="radio-btn" id="radio3">
+                                    <input type="radio" name="radio-btn" id="radio4">
+
+                                    <div class="slide first">
+                                        <img src="Image/Mee.jpg"  alt="">
+                                    </div>
+                                    <div class="slide first">
+                                        <img name="slide" src="Image/Brazil.jpg" alt="My Photo">
+                            
+                                    </div>
+                                    <div class="slide first">
+                                        <img src="Image/me.jpg"  alt="">
+                                    </div>
+                                    <div class="slide first">
+                                        <img src="Image/AI me.jpg"  alt="">
+                                    </div>
+
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn1"></div>
+                                        <div class="auto-btn2"></div>
+                                        <div class="auto-btn3"></div>
+                                    </div>
+                                </div>
+
+                                <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                                </div>
+                                
+
+
+                            </div>       
+                                
                     </div>
+
                     <div class="txt">
                         <h4> An Ethusiast Web Developer with ever growing cultivatable knowledge to help people community and the world. Raised with much love from my family, friends and neighbours I am keen to serve the community that has served me.   </h4>
                     </div>
@@ -67,6 +107,7 @@
             </aside>
 
             </div>
+            
  
     
     
@@ -79,7 +120,7 @@
     
         <h3 > My Contacts </h3>
         
-       <div>
+       <div class="right__footer">
         <a href="instagram.com"><i class="fa fa-instagram fa-lg"></i></a>  
         <a href="mailto:meklitzasrat@gmail.com"> &#9993; </a> 
         <a href="mailto:meklitzasrat@gmail.com"> <i class="fa fa-facebook fa-lg"></i></a> 
@@ -87,7 +128,7 @@
         <a href="https://t.me/DolceFarNeinte"> <i class="fa fa-telegram"> </i></a>
                
        
-           <p id="copy"> &copy;copy right is reserved   | Nov, 2023 | protected by law </p>
+           <p class="right__footer__copy" id="copy"> &copy;copy right is reserved   | Nov, 2023 | protected by law </p>
        </div>   
     
     
@@ -99,4 +140,11 @@
     
 
 </body>
+
+
+
+
+     
+    
 </html>
+
